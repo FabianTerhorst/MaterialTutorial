@@ -8,9 +8,6 @@ import android.graphics.Paint;
 import com.alexandrepiveteau.library.tutorial.utils.ConversionUtils;
 import com.alexandrepiveteau.library.tutorial.utils.MathUtils;
 
-/**
- * Created by Tanmay Parikh on 7/19/2015.
- */
 public class GoogleNowLauncherIndicatorEngine extends PageIndicator.Engine {
 
     private static final int SELECTED_RADIUS = 5;

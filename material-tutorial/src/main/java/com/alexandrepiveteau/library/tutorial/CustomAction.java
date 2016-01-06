@@ -1,12 +1,8 @@
 package com.alexandrepiveteau.library.tutorial;
 
 import android.app.PendingIntent;
-import android.net.Uri;
 import android.support.annotation.DrawableRes;
 
-/**
- * Created by Alexandre on 15.07.2015.
- */
 public interface CustomAction {
 
     /*

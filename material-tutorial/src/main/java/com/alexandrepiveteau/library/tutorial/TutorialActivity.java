@@ -3,29 +3,24 @@ package com.alexandrepiveteau.library.tutorial;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.app.PendingIntent;
-import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.AnimationDrawable;
-import android.net.Uri;
 import android.os.Build;
-import android.os.Handler;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.alexandrepiveteau.library.tutorial.widgets.DefaultPageIndicatorEngine;
 import com.alexandrepiveteau.library.tutorial.widgets.PageIndicator;
 
 import java.util.ArrayList;
 import java.util.List;
-
 
 public abstract class TutorialActivity extends AppCompatActivity implements View.OnClickListener, View.OnLongClickListener, ViewPager.OnPageChangeListener {
 

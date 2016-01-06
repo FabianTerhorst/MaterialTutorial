@@ -1,8 +1,5 @@
 package com.alexandrepiveteau.library.tutorial;
 
-/**
- * Created by Alexandre on 24.04.2015.
- */
 public class ColorMixer {
 
     private int mFirstColor;

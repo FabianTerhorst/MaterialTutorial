@@ -1,9 +1,7 @@
 package com.alexandrepiveteau.library.tutorial;
 
-
 import android.app.PendingIntent;
 import android.graphics.drawable.AnimationDrawable;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
@@ -15,10 +13,6 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class TutorialFragment extends Fragment implements CustomAction{
 
     public static class Builder {
@@ -250,7 +244,6 @@ public class TutorialFragment extends Fragment implements CustomAction{
                 animationDrawable.start();
             }
         }
-
 
         mTutorialNameTextView.setText(mTutorialName);
         mTutorialDescriptionTextView.setText(mTutorialDescription);

@@ -3,13 +3,9 @@ package com.alexandrepiveteau.library.tutorial;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.view.ViewPager;
 
 import java.util.List;
 
-/**
- * Created by Alexandre on 24.04.2015.
- */
 public class TutorialViewPagerAdapter extends FragmentStatePagerAdapter {
 
     private List<Fragment> mFragments;

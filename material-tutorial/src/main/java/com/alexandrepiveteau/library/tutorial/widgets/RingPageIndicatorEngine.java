@@ -11,9 +11,6 @@ import com.alexandrepiveteau.library.tutorial.utils.ConversionUtils;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-/**
- * Created by Tanmay Parikh on 7/19/2015.
- */
 public class RingPageIndicatorEngine extends PageIndicator.Engine {
 
     public static final int ANIMATION_SCALE = 0;

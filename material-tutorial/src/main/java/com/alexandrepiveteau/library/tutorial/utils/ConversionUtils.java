@@ -2,9 +2,6 @@ package com.alexandrepiveteau.library.tutorial.utils;
 
 import android.content.Context;
 
-/**
- * Created by Alexandre on 15.07.2015.
- */
 public class ConversionUtils {
 
     private float density;

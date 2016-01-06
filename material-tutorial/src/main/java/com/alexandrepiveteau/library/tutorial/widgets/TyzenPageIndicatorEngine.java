@@ -5,12 +5,8 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 
-import com.alexandrepiveteau.library.tutorial.R;
 import com.alexandrepiveteau.library.tutorial.utils.ConversionUtils;
 
-/**
- * Created by Alexandre on 19.07.2015.
- */
 public class TyzenPageIndicatorEngine extends PageIndicator.Engine {
 
     private ConversionUtils mConversionUtils;

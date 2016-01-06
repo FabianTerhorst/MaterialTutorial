@@ -6,9 +6,6 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Alexandre on 14.07.2015.
- */
 public class ParallaxPagerTransformer implements ViewPager.PageTransformer {
 
     private List<ParallaxTransformInformation> mViewsToParallax = new ArrayList<ParallaxTransformInformation>();

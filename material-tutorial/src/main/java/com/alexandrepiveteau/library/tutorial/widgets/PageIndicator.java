@@ -1,19 +1,11 @@
 package com.alexandrepiveteau.library.tutorial.widgets;
 
 import android.content.Context;
-import android.content.res.TypedArray;
 import android.graphics.Canvas;
-import android.graphics.Paint;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.alexandrepiveteau.library.tutorial.R;
-import com.alexandrepiveteau.library.tutorial.utils.ConversionUtils;
-
-/**
- * Created by Alexandre on 15.07.2015.
- */
 public class PageIndicator extends View implements ViewPager.OnPageChangeListener{
 
     public static abstract class Engine {

@@ -3,14 +3,10 @@ package com.alexandrepiveteau.library.tutorial.widgets;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.util.AttributeSet;
 
 import com.alexandrepiveteau.library.tutorial.R;
 import com.alexandrepiveteau.library.tutorial.utils.ConversionUtils;
 
-/**
- * Created by Alexandre on 19.07.2015.
- */
 public class DefaultPageIndicatorEngine extends PageIndicator.Engine {
 
     private ConversionUtils mConversionUtils;
