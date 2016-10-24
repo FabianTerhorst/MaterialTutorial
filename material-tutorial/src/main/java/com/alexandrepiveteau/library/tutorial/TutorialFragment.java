@@ -11,8 +11,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
-
 public class TutorialFragment extends Fragment implements CustomAction{
 
     public static class Builder {
@@ -219,7 +217,7 @@ public class TutorialFragment extends Fragment implements CustomAction{
 
         if(mTutorialImage != NO_IMAGE) {
             if (!mHasAnimatedImage) {
-                Picasso.with(getActivity()).load(mTutorialImage).into(mTutorialImageImageView);
+                mTutorialImageImageView.setBackgroundResource(mTutorialImage);
             } else {
                 mTutorialImageImageView.setImageResource(mTutorialImage);
                 AnimationDrawable animationDrawable = (AnimationDrawable) mTutorialImageImageView.getDrawable();
@@ -228,7 +226,7 @@ public class TutorialFragment extends Fragment implements CustomAction{
         }
         if(mTutorialImageBackground != NO_IMAGE) {
             if(!mHasAnimatedImageBackground) {
-                Picasso.with(getActivity()).load(mTutorialImageBackground).into(mTutorialImageImageViewBackground);
+                mTutorialImageImageViewBackground.setBackgroundResource(mTutorialImageBackground);
             } else {
                 mTutorialImageImageViewBackground.setImageResource(mTutorialImageBackground);
                 AnimationDrawable animationDrawable = (AnimationDrawable) mTutorialImageImageViewBackground.getDrawable();
@@ -237,7 +235,7 @@ public class TutorialFragment extends Fragment implements CustomAction{
         }
         if(mTutorialImageForeground != NO_IMAGE) {
             if(!mHasAnimatedImageForeground) {
-                Picasso.with(getActivity()).load(mTutorialImageForeground).into(mTutorialImageImageViewForeground);
+                mTutorialImageImageViewForeground.setImageResource(mTutorialImageForeground);
             } else {
                 mTutorialImageImageViewForeground.setImageResource(mTutorialImageForeground);
                 AnimationDrawable animationDrawable = (AnimationDrawable) mTutorialImageImageViewForeground.getDrawable();
