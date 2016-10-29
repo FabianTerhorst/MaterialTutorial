@@ -217,7 +217,7 @@ public class TutorialFragment extends Fragment implements CustomAction{
 
         if(mTutorialImage != NO_IMAGE) {
             if (!mHasAnimatedImage) {
-                mTutorialImageImageView.setBackgroundResource(mTutorialImage);
+                mTutorialImageImageView.setImageResource(mTutorialImage);
             } else {
                 mTutorialImageImageView.setImageResource(mTutorialImage);
                 AnimationDrawable animationDrawable = (AnimationDrawable) mTutorialImageImageView.getDrawable();
