@@ -5,7 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
-import android.support.annotation.IntDef;
+import androidx.annotation.IntDef;
 
 import com.alexandrepiveteau.library.tutorial.utils.ConversionUtils;
 

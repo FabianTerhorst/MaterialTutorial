@@ -1,7 +1,7 @@
 package com.alexandrepiveteau.library.tutorial;
 
 import android.app.PendingIntent;
-import android.support.annotation.DrawableRes;
+import androidx.annotation.DrawableRes;
 
 public interface CustomAction {
 
